@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bill</title>
+	<link rel="stylesheet" href="css/bill.css">
+</head>
+
+<body>
+	<button class="turnback" onclick="redirect()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+		<path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+	  </svg><div>Trang Chủ</div></button>
+	<div class="wrapper">
+
+		<div class="invoice_wrapper">
+
+			<div class="header">
+				<div class="logo_invoice_wrap">
+					<div class="logo_sec">
+						<img src="img/codingboss.png" alt="code logo">
+						<div class="title_wrap">
+							<p class="title bold">Hoá Đơn Viện Phí</p>
+							<p class="sub_title">Bảo mật tuyệt đối</p>
+						</div>
+					</div>
+					<div class="invoice_sec">
+						<p class="invoice bold">ID định danh</p>
+						<p class="invoice_no">
+							<span class="bold">ID</span>
+							<span>#3488</span>
+						</p>
+						<p class="date">
+							<span class="bold">Ngày</span>
+							<span>08/Tháng 10/2022</span>
+						</p>
+					</div>
+				</div>
+				<div class="bill_total_wrap">
+					<div class="bill_sec">
+						<p>Hoá đơn của</p>
+						<p class="bold name">Nguyễn Văn A</p>
+						<span>
+							123 đường Tô Hiệu, Hà Nội<br />
+							+84123456789
+						</span>
+					</div>
+					<div class="total_wrap">
+						<p>Tổng Viện Phí</p>
+						<p class="bold price">VNĐ: 999056</p>
+					</div>
+				</div>
+			</div>
+			<div class="body">
+				<div class="main_table">
+					<div class="table_header">
+						<div class="row">
+							<div class="col col_no">STT</div>
+							<div class="col col_des">Tên Sản Phẩm</div>
+							<div class="col col_price">Đơn giá</div>
+							<div class="col col_qty">Số lượng</div>
+							<div class="col col_total">Tổng</div>
+						</div>
+					</div>
+					<div class="table_body">
+						<div class="row">
+							<div class="col col_no">
+								<p>01</p>
+							</div>
+							<div class="col col_des">
+								<p class="bold">Thuốc sổ</p>
+								<p>Uống ba gói sau ăn</p>
+							</div>
+							<div class="col col_price">
+								<p>154</p>
+							</div>
+							<div class="col col_qty">
+								<p>2</p>
+							</div>
+							<div class="col col_total">
+								<p>211.06</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col_no">
+								<p>02</p>
+							</div>
+							<div class="col col_des">
+								<p class="bold">Que thử Covid</p>
+								<p>Test bất cứ lúc nào</p>
+							</div>
+							<div class="col col_price">
+								<p>211</p>
+							</div>
+							<div class="col col_qty">
+								<p>2</p>
+							</div>
+							<div class="col col_total">
+								<p>211.06</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col_no">
+								<p>03</p>
+							</div>
+							<div class="col col_des">
+								<p class="bold">Axit cacbonic</p>
+								<p>Có tính ăn mòn cao</p>
+							</div>
+							<div class="col col_price">
+								<p>211</p>
+							</div>
+							<div class="col col_qty">
+								<p>1</p>
+							</div>
+							<div class="col col_total">
+								<p>211.06</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col_no">
+								<p>04</p>
+							</div>
+							<div class="col col_des">
+								<p class="bold">Thuốc ngủ</p>
+								<p>4.1 ml/3 tiếng</p>
+							</div>
+							<div class="col col_price">
+								<p>211</p>
+							</div>
+							<div class="col col_qty">
+								<p>06</p>
+							</div>
+							<div class="col col_total">
+								<p>99999</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col_no">
+								<p>5</p>
+							</div>
+							<div class="col col_des">
+								<p class="bold">Thuốc bổ não</p>
+								<p>Dùng để tăng tư duy</p>
+							</div>
+							<div class="col col_price">
+								<p>211</p>
+							</div>
+							<div class="col col_qty">
+								<p>6</p>
+							</div>
+							<div class="col col_total">
+								<p>211.06</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="paymethod_grandtotal_wrap">
+					<div class="paymethod_sec">
+						<p class="bold">Các hình thức thanh toán</p>
+						<p>Visa, thẻ nội địa, ví điện tử</p>
+					</div>
+					<div class="grandtotal_sec">
+						<p class="bold">
+							<span>Tổng viện phí: </span>
+							<span>211154</span>
+						</p>
+						<p>
+							<span>Thuế VAT: </span>
+							<span>222</span>
+						</p>
+						<p>
+							<span>Giảm giá:</span>
+							<span>00</span>
+						</p>
+						<p class="bold">
+							<span>Tổng Hoá Đơn</span>
+							<span>154211</span>
+						</p>
+						<p>
+							<span>Đã Thanh Toán</span>
+							<span></span>
+
+
+						</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer">
+				<p>Cảm ơn bạn vì đã sử dụng dịch vụ của chúng tôi</p>
+				<div class="terms">
+					<p class="tc bold">Điều khoản và điều kiện</p>
+					<p>Toàn bộ thông tin của bạn đều được bảo mật và an toàn tuyệt đối. Không có bên thứ ba nào được
+						phép lấy thông tin này.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <button class="turnback">Trang Chủ</button> -->
+
+	<script>
+		function redirect () {
+               return window.location = "index1.html"
+          }
+	</script>
+</body>
+
+</html>

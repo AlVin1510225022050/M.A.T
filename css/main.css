@@ -2,7 +2,7 @@
 
 /* variables */
 :root{
-    --fros-blue-color: #0050d5;
+    --fros-blue-color: #41b6e6;
     --light-blue-color: #16c5ff;
     --dark-color: #202020;
     --light-gray: #dedede;
@@ -1012,3 +1012,4 @@ button[class ^= navbar]:hover{
     -o-transition: none!important;
     transition: none!important;
 }
+

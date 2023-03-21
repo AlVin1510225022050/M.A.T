@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="./css/template.css" />
+        <link rel="stylesheet" href="./css/schedule.css" />
+        <script src="./js/schedule.js" type="module" defer></script>
+        <title>Schedule</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topbar">
+                <div class="logo">
+                    <h2>M.A.T</h2>
+                </div>
+                <div class="end">
+                    <i class="fas fa-bell text-xs"></i>
+                    <div class="user">
+                        <img src="/img/user.png" alt="" />
+                        <p>{{displayName}}</p>
+                        <ul class="hover-menu">
+                            <li>UID: {{uid}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li>
+                        <a href="/dashboard">
+                            <i class="fas fa-th-large"></i>
+                            <div>Trang chủ</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-calendar"></i>
+                            <div>Đặt lịch</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>Hồ sơ bệnh án</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>Dịch vụ</div>
+                        </a>
+                    </li><li>
+                        <a href="#">
+                            <i class="fas fa-chart-bar"></i>
+                            <div>Trợ giúp</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="schedule-header">
+                    <h1 class="schedule-page-title">Lịch sử đặt lịch</h1>
+                    <div class="search">
+                        <input type="text" placeholder="Tìm kiếm" />
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tools">
+                        <button class="new-schedule"><i class="fas fa-plus"></i> Đặt lịch</button>
+                        <div class="schedule-filter">
+                            <span>Lọc theo</span>
+                            <select>
+                                <option value="1">Tất cả</option>
+                                <option value="2">Đã đặt</option>
+                                <option value="3">Đã hủy</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <ul class="schedule-list">
+                    
+                </ul>
+            </div>
+            <form class="schedule-form hidden">
+                <h2>Đặt lịch</h2>
+                <label for="doctor-email">Bác sĩ:</label>
+                <input type="email" name="doctor-email" id="" />
+                <label for="details">Chi tiết:</label>
+                <textarea name="details" id="" cols="30" rows="10"></textarea>
+                <label for="time">Thời gian:</label>
+                <input type="datetime-local" name="time" id="" />
+                <button type="submit">Đặt lịch</button>
+            </form>
+            <div class="cover hidden"></div>
+        </div>
+    </body>
+</html>

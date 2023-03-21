@@ -1,0 +1,140 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  .nav-back{
+      background: rgba(17, 219, 207,0.8);
+      color: #ffffff;
+  }
+  .navbar-brand{
+    color: #000;
+  }
+  .navbar-brand:hover{
+    color: #fff;
+  }
+  .nav-link{
+    color: #000;
+  }
+  .nav-link:hover{
+    color:#fff;
+  }
+  .navbar-toggler{
+    outline: none!important;
+  }
+  
+  .container {
+    background-color: rgb(22, 197, 255);
+    border: 2px solid rgb(22, 197, 255);
+
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(4%,7%);
+    
+  }
+  
+     
+
+  .main-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+   .main-btn:hover {
+    background: #fafafa;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+    color:#fff;
+  }
+ .form-group .btn-form{
+  background: #f5f7f6;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  color:#000;
+ }
+
+   
+
+
+
+
+
+
+  /*--------------------------------------------------------------
+  # Hero Section
+  #hero {
+      width: 100%;
+      height: 80vh;
+      background: url("./images/hero.jpg") center center;
+      background-size: cover;
+      position: relative;
+    }
+    
+    #hero .container {
+      padding-top: 80px;
+    }
+    
+    #hero:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    
+    #hero h2 {
+      color: #73deff;
+      margin-bottom: 40px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    
+   
+    .footer {
+        text-align: center;
+        font-size: 0.9rem;
+        background:rgba(17, 219, 207,0.8);
+      }
+      .footer .btn-back{
+        background: #96e7ff;
+        color: #f6f6f7;
+      }
+      .footer .text{
+        color: #000;
+      }
+      
+  --------------------------------------------------------------*/
+
